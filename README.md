@@ -22,5 +22,9 @@ A análise exploratória permitiu identificar:
 * **Análise de Dados:** Organização de tabelas dinâmicas e cálculos de média/soma por órgão superior.
 * **Documentação:** Markdown para apresentação do projeto.
 
+* ## 🚀 Como Executar
+1. Instale as dependências: `pip install pandas openpyxl`
+2. Execute o script de análise: `python analise_gastos.py`
+
 ---
 Este projeto faz parte do meu portfólio de **Desenvolvimento de Software e Análise de Dados**, demonstrando competências em tratamento de dados governamentais e organização de informações estruturadas.
