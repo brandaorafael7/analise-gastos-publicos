@@ -1,23 +1,26 @@
-# Análise de Despesas e Viagens Governamentais
+# Análise de Despesas e Viagens Governamentais (2023 - 2026)
 
-Este projeto realiza o processamento e a análise de dados relacionados a gastos públicos com passagens, diárias e despesas de viagens de servidores de diversos órgãos federais. O objetivo é identificar padrões de gastos, destinos mais frequentes e médias de despesas por cargo.
+Este repositório contém uma análise técnica sobre os gastos públicos da administração federal brasileira, com foco em passagens aéreas e diárias de servidores. O projeto processa dados de transações para identificar padrões de consumo, destinos frequentes e médias salariais por categoria funcional.
 
-## 📊 Visão Geral dos Dados
-Os dados analisados incluem informações detalhadas de pagamentos e viagens, como:
-- [cite_start]**Órgãos Superiores:** Ministério da Educação, Ministério da Defesa, entre outros.
-- [cite_start]**Cargos Analisados:** Professores, Auditores Fiscais, Analistas Ambientais e Assistentes Administrativos.
-- [cite_start]**Métricas:** Despesa média, duração média das viagens, despesas totais e volume de viagens por categoria.
+## 📌 Sobre o Projeto
+O objetivo principal é transformar dados brutos de pagamentos governamentais em insights compreensíveis, permitindo visualizar como o orçamento de viagens é distribuído entre diferentes órgãos e cargos.
 
-## 📁 Estrutura do Projeto
-- [cite_start]`tabela_2023.xlsx`: Dados consolidados do ano de 2023.
-- [cite_start]`tabela_2026.xlsx`: Projeções ou dados antecipados para o ano de 2026.
-- [cite_start]`2026_Pagamento.csv`: Detalhamento individual de processos de viagem, incluindo códigos de UG (Unidade Gestora) e tipos de pagamento (Diárias, Passagens, Restituições).
+## 📊 Estrutura dos Dados
+O projeto utiliza três bases de dados principais localizadas na raiz do repositório:
+- **`2026_Pagamento.csv`**: Detalhamento individualizado de processos de pagamento, incluindo Unidades Gestoras (UG) e tipos de despesa (Diárias, Passagens, Restituições).
+- **`tabela_2023.xlsx`**: Dados consolidados referentes ao ano de 2023 para análise histórica.
+- **`tabela_2026.xlsx`**: Dados projetados ou processados para o ano de 2026.
 
-## 🔍 Principais Insights (Exemplos extraídos)
-- [cite_start]**Destinos:** Brasília/DF aparece como o destino mais frequente para a maioria dos cargos analisados.
-- [cite_start]**Custos:** O cargo de "Professor do Magistério" registrou despesas totais significativas, com média de aproximadamente R$ 2.031,22 por viagem em 2023.
-- [cite_start]**Órgãos:** Instituições como o IF Sul-rio-grandense e o Comando do Exército possuem registros detalhados de despesas com passagens e diárias.
+## 🔍 Insights Extraídos
+A análise exploratória permitiu identificar:
+* **Concentração de Destinos:** Brasília/DF como o principal polo de destino das viagens a serviço.
+* **Custo por Cargo:** Identificação da despesa média para cargos como "Professor do Magistério" (aprox. R$ 2.031,22 por viagem) e "Auditor-Fiscal".
+* **Fluxo de Pagamentos:** Diferenciação entre despesas urgentes e planejadas através dos códigos de processo.
 
-## 🛠️ Tecnologias Sugeridas (para compor o perfil)
-- Python (Pandas/Matplotlib) ou SQL para análise.
-- Excel para visualização de dados consolidados.
+## 🛠️ Tecnologias e Ferramentas
+* **Data Cleaning:** Manipulação de arquivos CSV e XLSX para tratamento de valores nulos e padronização de categorias.
+* **Análise de Dados:** Organização de tabelas dinâmicas e cálculos de média/soma por órgão superior.
+* **Documentação:** Markdown para apresentação do projeto.
+
+---
+Este projeto faz parte do meu portfólio de **Desenvolvimento de Software e Análise de Dados**, demonstrando competências em tratamento de dados governamentais e organização de informações estruturadas.
